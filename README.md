@@ -1,6 +1,8 @@
 # social-network-api
 This project is a social media back-end API. It allows users to share their thoughts, are able to react to friend's thoughts, and create a friends list.
 
+![GitHub Logo](img/ss.png)
+
 ## Tools and languages used
 * MongoDB 
 * Mongoose
