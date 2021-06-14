@@ -31,7 +31,7 @@ const userSchema = new Schema(
         type: Schema.Types.ObjectId,
         ref: "User",
       },
-    ],
+    ]
   },
   {
     toJSON: {
@@ -44,7 +44,7 @@ const userSchema = new Schema(
 );
 
 //get total amoutn user friends
-userSchema.virtual("friendCount").get(function () {
+userSchema.virtual("friendCount").get(function() {
   return this.friends.length;
 });
 
